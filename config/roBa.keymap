@@ -64,6 +64,40 @@
             bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "TO_LAYER_0";
         };
+        OO: OO {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp KP_NUMBER_0 &kp NUMBER_0>;
+            label = "OO";
+        };
+
+        ENTENT: ENTENT {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp ENTER &kp ENTER &kp ENTER &kp ENTER &kp ENTER &kp ENTER &kp ENTER>;
+            label = "ENTENT";
+        };
+
+        sum: sum {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(LC(S)) &kp U &kp M>;
+            label = "SUM";
+        };
+
+        mb1_exit_aml: mb1_exit_aml {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&mkp LCLK>, <&macro_wait_time 30>, <&tog MOUSE>;
+
+            label = "MB1_EXIT_AML";
+        };
+
+        CAPSM: capsm {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(CAPS)>;
+        };
     };
 
     behaviors {
