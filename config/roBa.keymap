@@ -87,11 +87,6 @@
             key-positions = <7 18>;
         };
 
-        rclick {
-            bindings = <&mkp RCLK>;
-            key-positions = <31 20>;
-        };
-
         mo6 {
             bindings = <&mo 6>;
             key-positions = <8 9>;
