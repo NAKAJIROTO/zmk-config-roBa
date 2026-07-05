@@ -84,20 +84,6 @@
             bindings = <&kp LA(LC(S)) &kp U &kp M>;
             label = "SUM";
         };
-
-        mb1_exit_aml: mb1_exit_aml {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&mkp LCLK>, <&macro_wait_time 30>, <&tog MOUSE>;
-
-            label = "MB1_EXIT_AML";
-        };
-
-        CAPSM: capsm {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(CAPS)>;
-        };
     };
 
     behaviors {
