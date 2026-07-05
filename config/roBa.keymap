@@ -93,12 +93,12 @@
         };
 
         caps1 {
-            bindings = <&kp LS(CAPSLOCK)>;
+            bindings = <&kp CAPSLOCK>;
             key-positions = <13 14>;
         };
 
         kanakana {
-            bindings = <&kp CAPSLOCK>;
+            bindings = <&kp LS(CAPSLOCK)>;
             key-positions = <3 4>;
         };
 
