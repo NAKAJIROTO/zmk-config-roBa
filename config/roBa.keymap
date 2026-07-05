@@ -26,10 +26,10 @@
 #define JP_KANA         LANGUAGE_1        // かな
 #define JP_EISU         LANGUAGE_2        // 英数
 #define JP_HANZEN       GRAVE             // 半角/全角
+
 #undef ZMK_POINTING_DEFAULT_SCRL_VAL
+
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 80
-
-
 
 &mt {
     flavor = "balanced";
@@ -106,6 +106,16 @@
             bindings = <&kp CAPSLOCK>;
             key-positions = <3 4>;
         };
+
+        mbb1 {
+            bindings = <&mkp LCLK>;
+            key-positions = <30 31>;
+        };
+
+        mbb2 {
+            bindings = <&mkp RCLK>;
+            key-positions = <20 21>;
+        };
     };
 
     macros {
@@ -166,7 +176,7 @@
 &kp Q             &kp W         &kp E                   &kp R                  &kp T                                     &kp Y        &kp U  &lt 0 I    &kp O    &kp P
 &kp A             &kp S         &kp D                   &kp F                  &kp G        &trans           &trans      &kp H        &kp J  &kp K      &kp L    &kp KP_MINUS
 &mt LEFT_SHIFT Z  &kp X         &kp C                   &kp V                  &kp B        &trans           &trans      &kp N        &kp M  &mkp LCLK  &kp TAB  &kp LS(TAB)
-&kp LEFT_SHIFT    &kp LEFT_WIN  &mt LEFT_ALT BACKSPACE  &mt LEFT_CONTROL DOWN  &lt 2 SPACE  &lt 1 ENTER      &lt 1 DOWN  &lt 3 ENTER                             &kp BACKSPACE
+&kp LEFT_SHIFT    &kp LEFT_WIN  &mt LEFT_ALT BACKSPACE  &mt LEFT_CONTROL DOWN  &lt 2 SPACE  &lt 1 ENTER      &lt 5 DOWN  &lt 6 ENTER                             &kp BACKSPACE
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
