@@ -26,11 +26,10 @@
 #define JP_KANA         LANGUAGE_1        // かな
 #define JP_EISU         LANGUAGE_2        // 英数
 #define JP_HANZEN       GRAVE             // 半角/全角
+#undef ZMK_POINTING_DEFAULT_SCRL_VAL
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 80
 
-&zip_temp_layer {
-    excluded-positions = <26>;
-};
+
 
 &mt {
     flavor = "balanced";
