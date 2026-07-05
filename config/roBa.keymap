@@ -160,10 +160,10 @@
 
         layer_0 {
             bindings = <
-&kp Q             &kp W         &kp E                   &kp R                  &kp T                                          &kp Y        &kp U  &lt 0 I    &kp O    &kp P
-&kp A             &kp S         &kp D                   &kp F                  &kp G        &kp LS(LG(S))      &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp KP_MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C                   &kp V                  &kp B        &kp COLON          &kp SEMICOLON  &kp N        &kp M  &mkp LCLK  &kp TAB  &kp LS(TAB)
-&kp LEFT_SHIFT    &kp LEFT_WIN  &mt LEFT_ALT BACKSPACE  &mt LEFT_CONTROL DOWN  &lt 2 SPACE  &lt 1 ENTER        &lt 1 DOWN     &lt 3 ENTER                             &kp BACKSPACE
+&kp Q             &kp W         &kp E                   &kp R                  &kp T                                     &kp Y        &kp U  &lt 0 I    &kp O    &kp P
+&kp A             &kp S         &kp D                   &kp F                  &kp G        &trans           &trans      &kp H        &kp J  &kp K      &kp L    &kp KP_MINUS
+&mt LEFT_SHIFT Z  &kp X         &kp C                   &kp V                  &kp B        &trans           &trans      &kp N        &kp M  &mkp LCLK  &kp TAB  &kp LS(TAB)
+&kp LEFT_SHIFT    &kp LEFT_WIN  &mt LEFT_ALT BACKSPACE  &mt LEFT_CONTROL DOWN  &lt 2 SPACE  &lt 1 ENTER      &lt 1 DOWN  &lt 3 ENTER                             &kp BACKSPACE
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -185,6 +185,7 @@
 &kp JP_TILDE  &kp JP_QUOTE       &kp JP_DQUOTE    &kp JP_LBRACKET  &kp JP_RBRACKET  &trans      &trans  &kp F11  &kp F12  &trans  &trans  &trans
 &trans        &trans             &trans           &trans           &trans           &trans      &trans  &trans                            &trans
             >;
+
             sensor-bindings = <&encoder_msc_down_up>;
         };
 
@@ -195,7 +196,6 @@
 &kp KP_NUMLOCK  &trans           &trans  &trans         &trans    &trans      &trans  &kp JP_LBRACE  &kp JP_RBRACE     &kp LS(LEFT)  &kp DOWN  &kp LS(RIGHT)
 &trans          &trans           &trans  &trans         &trans    &trans      &trans  &trans                                                   &trans
             >;
-
         };
 
         layer_4 {
