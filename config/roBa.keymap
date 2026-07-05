@@ -109,7 +109,7 @@
 
         mbb1 {
             bindings = <&mkp LCLK>;
-            key-positions = <19 20>;
+            key-positions = <20 31>;
         };
 
         mbb2 {
