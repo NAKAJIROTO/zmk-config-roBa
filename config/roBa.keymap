@@ -93,7 +93,7 @@
         OO: OO {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp KP_NUMBER_0 &kp NUMBER_0>;
+            bindings = <&kp KP_NUMBER_0 &kp KP_NUMBER_0>;
             label = "OO";
         };
 
