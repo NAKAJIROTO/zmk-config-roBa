@@ -185,6 +185,7 @@
 &kp JP_TILDE  &kp JP_QUOTE       &kp JP_DQUOTE    &kp JP_LBRACKET  &kp JP_RBRACKET  &trans      &trans  &kp F11  &kp F12  &trans  &trans  &trans
 &trans        &trans             &trans           &trans           &trans           &trans      &trans  &trans                            &trans
             >;
+            sensor-bindings = <&encoder_msc_down_up>;
         };
 
         layer_3 {
@@ -194,6 +195,7 @@
 &kp KP_NUMLOCK  &trans           &trans  &trans         &trans    &trans      &trans  &kp JP_LBRACE  &kp JP_RBRACE     &kp LS(LEFT)  &kp DOWN  &kp LS(RIGHT)
 &trans          &trans           &trans  &trans         &trans    &trans      &trans  &trans                                                   &trans
             >;
+
         };
 
         layer_4 {
