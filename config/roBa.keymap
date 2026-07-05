@@ -28,6 +28,10 @@
 #define JP_HANZEN       GRAVE             // 半角/全角
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 80
 
+&zip_temp_layer {
+    excluded-positions = <26>;
+};
+
 &mt {
     flavor = "balanced";
     quick-tap-ms = <0>;
