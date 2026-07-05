@@ -176,7 +176,7 @@
 &kp Q             &kp W         &kp E                   &kp R                  &kp T                                     &kp Y        &kp U  &lt 0 I    &kp O    &kp P
 &kp A             &kp S         &kp D                   &kp F                  &kp G        &trans           &trans      &kp H        &kp J  &kp K      &kp L    &kp KP_MINUS
 &mt LEFT_SHIFT Z  &kp X         &kp C                   &kp V                  &kp B        &trans           &trans      &kp N        &kp M  &mkp LCLK  &kp TAB  &kp LS(TAB)
-&kp LEFT_SHIFT    &kp LEFT_WIN  &mt LEFT_ALT BACKSPACE  &mt LEFT_CONTROL DOWN  &lt 2 SPACE  &lt 1 ENTER      &lt 5 DOWN  &lt 6 ENTER                             &kp BACKSPACE
+&kp LEFT_SHIFT    &kp LEFT_WIN  &mt LEFT_ALT BACKSPACE  &mt LEFT_CONTROL DOWN  &lt 2 SPACE  &lt 1 ENTER      &lt 1 DOWN  &lt 3 ENTER                             &kp BACKSPACE
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -184,10 +184,10 @@
 
         layer_1 {
             bindings = <
-&kp JP_EQUAL  &kp JP_PLUS       &kp MINUS  &kp JP_ASTERISK  &kp JP_YEN                                 &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0  &kp KP_SLASH
-&ENTENT       &kp LEFT          &kp UP     &kp RIGHT        &kp F9            &trans      &trans       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &OO              &trans
-&kp LC(F)     &kp LG(NUMBER_1)  &kp LC(C)  &kp LC(V)        &kp LC(JP_QUOTE)  &trans      &trans       &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp JP_COLON     &kp SEMI
-&trans        &trans            &trans     &trans           &trans            &trans      &lt 0 ENTER  &trans                                                              &kp BACKSPACE
+&kp JP_EQUAL  &kp JP_PLUS       &kp MINUS  &kp JP_ASTERISK  &kp JP_YEN                                &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0  &kp KP_SLASH
+&ENTENT       &kp LEFT          &kp UP     &kp RIGHT        &kp F9            &trans      &trans      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &OO              &trans
+&kp LC(F)     &kp LG(NUMBER_1)  &kp LC(C)  &kp LC(V)        &kp LC(JP_QUOTE)  &trans      &trans      &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp JP_COLON     &kp SEMI
+&trans        &trans            &trans     &trans           &lt 4 SPACE       &trans      &lt 5 DOWN  &trans                                                              &kp BACKSPACE
             >;
         };
 
