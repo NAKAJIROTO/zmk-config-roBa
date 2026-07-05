@@ -161,9 +161,9 @@
         layer_0 {
             bindings = <
 &kp Q             &kp W         &kp E                   &kp R                  &kp T                                          &kp Y        &kp U  &lt 0 I    &kp O    &kp P
-&kp A             &kp S         &kp D                   &kp F                  &kp G        &kp LS(LG(S))      &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp MINUS
+&kp A             &kp S         &kp D                   &kp F                  &kp G        &kp LS(LG(S))      &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp KP_MINUS
 &mt LEFT_SHIFT Z  &kp X         &kp C                   &kp V                  &kp B        &kp COLON          &kp SEMICOLON  &kp N        &kp M  &mkp LCLK  &kp TAB  &kp LS(TAB)
-&kp LEFT_SHIFT    &kp LEFT_WIN  &mt LEFT_ALT BACKSPACE  &mt LEFT_CONTROL DOWN  &lt 2 SPACE  &lt 1 ENTER        &lt 1 DOWN     &lt 0 ENTER                             &kp DEL
+&kp LEFT_SHIFT    &kp LEFT_WIN  &mt LEFT_ALT BACKSPACE  &mt LEFT_CONTROL DOWN  &lt 2 SPACE  &lt 1 ENTER        &lt 1 DOWN     &lt 3 ENTER                             &kp BACKSPACE
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -174,7 +174,7 @@
 &kp JP_EQUAL  &kp JP_PLUS       &kp MINUS  &kp JP_ASTERISK  &kp JP_YEN                                 &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0  &kp KP_SLASH
 &ENTENT       &kp LEFT          &kp UP     &kp RIGHT        &kp F9            &trans      &trans       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &OO              &trans
 &kp LC(F)     &kp LG(NUMBER_1)  &kp LC(C)  &kp LC(V)        &kp LC(JP_QUOTE)  &trans      &trans       &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp JP_COLON     &kp SEMI
-&trans        &trans            &trans     &lt 0 BACKSPACE  &trans            &trans      &lt 0 ENTER  &trans                                                              &kp DEL
+&trans        &trans            &trans     &trans           &trans            &trans      &lt 0 ENTER  &trans                                                              &kp BACKSPACE
             >;
         };
 
@@ -193,7 +193,7 @@
 &trans          &trans           &trans  &kp PAGE_DOWN  &kp END   &trans      &trans  &kp LESS_THAN  &kp GREATER_THAN  &kp LEFT      &trans    &kp RIGHT
 &kp KP_NUMLOCK  &trans           &trans  &trans         &trans    &trans      &trans  &kp JP_LBRACE  &kp JP_RBRACE     &kp LS(LEFT)  &kp DOWN  &kp LS(RIGHT)
 &trans          &trans           &trans  &trans         &trans    &trans      &trans  &trans                                                   &trans
->;
+            >;
         };
 
         layer_4 {
