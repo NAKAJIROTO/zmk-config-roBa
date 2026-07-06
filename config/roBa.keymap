@@ -93,12 +93,12 @@
         };
 
         caps1 {
-            bindings = <&kp CAPSLOCK>;
+            bindings = <&kp LS(CAPSLOCK)>;
             key-positions = <13 14>;
         };
 
         kanakana {
-            bindings = <&kp LS(CAPSLOCK)>;
+            bindings = <&kp CAPSLOCK>;
             key-positions = <3 4>;
         };
 
@@ -168,10 +168,10 @@
 
         layer_0 {
             bindings = <
-&kp Q             &kp W         &kp E                   &kp R                  &kp T                                     &kp Y        &kp U  &kp I      &kp O    &kp P
-&kp A             &kp S         &kp D                   &kp F                  &kp G        &trans           &trans      &kp H        &kp J  &kp K      &kp L    &kp KP_MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C                   &kp V                  &kp B        &trans           &trans      &kp N        &kp M  &mkp LCLK  &kp TAB  &kp LS(TAB)
-&kp LEFT_SHIFT    &kp LEFT_WIN  &mt LEFT_ALT BACKSPACE  &mt LEFT_CONTROL DOWN  &lt 2 SPACE  &lt 1 ENTER      &lt 3 DOWN  &lt 1 ENTER                             &kp BACKSPACE
+&kp Q             &kp W         &kp E              &kp R                       &kp T                                     &kp Y        &kp U  &kp I      &kp O    &kp P
+&kp A             &kp S         &kp D              &kp F                       &kp G        &trans           &trans      &kp H        &kp J  &kp K      &kp L    &kp KP_MINUS
+&mt LEFT_SHIFT Z  &kp X         &kp C              &kp V                       &kp B        &trans           &trans      &kp N        &kp M  &mkp LCLK  &kp TAB  &kp LS(TAB)
+&kp LEFT_SHIFT    &kp LEFT_WIN  &mt LEFT_ALT DOWN  &mt LEFT_CONTROL BACKSPACE  &lt 2 SPACE  &lt 1 ENTER      &lt 3 DOWN  &lt 1 ENTER                             &kp BACKSPACE
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
