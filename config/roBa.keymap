@@ -184,6 +184,8 @@
 &kp LC(F)     &kp LG(NUMBER_1)  &kp LC(C)     &kp LC(V)        &kp LC(JP_QUOTE)  &trans      &trans      &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans           &trans
 &trans        &trans            &trans        &trans           &lt 4 SPACE       &trans      &lt 5 DOWN  &lt 4 ENTER                                                         &kp DEL
             >;
+
+            sensor-bindings = <&encoder_msc_down_up>;
         };
 
         layer_2 {
@@ -204,6 +206,8 @@
 &kp KP_NUMLOCK  &trans           &trans  &trans         &trans    &trans      &trans  &kp JP_LBRACE  &kp JP_RBRACE     &kp LS(LEFT)  &kp DOWN  &kp LS(RIGHT)
 &trans          &trans           &trans  &trans         &trans    &trans      &trans  &trans                                                   &trans
             >;
+
+            sensor-bindings = <&encoder_msc_down_up>;
         };
 
         layer_4 {
@@ -213,6 +217,8 @@
 &trans       &trans  &trans  &trans  &trans  &trans      &trans  &trans        &trans        &trans        &trans        &bt BT_CLR
 &bootloader  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                  &bt BT_CLR_ALL
             >;
+
+            sensor-bindings = <&encoder_msc_down_up>;
         };
 
         layer_5 {
@@ -222,6 +228,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
+
+            sensor-bindings = <&encoder_msc_down_up>;
         };
 
         layer_6 {
@@ -231,6 +239,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
+
+            sensor-bindings = <&encoder_msc_down_up>;
         };
     };
 };
