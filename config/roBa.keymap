@@ -199,7 +199,7 @@
 
         layer_3 {
             bindings = <
-&sum            &kp PRINTSCREEN  &trans  &kp PAGE_UP    &kp HOME                      &kp JP_CARET   &kp JP_BACKQUOTE  &trans        &kp UP    &trans
+&sum            &kp PRINTSCREEN  &trans  &kp PAGE_UP    &kp HOME                      &kp JP_CARET   &kp JP_BACKQUOTE  &kp SEMI      &kp UP    &trans
 &trans          &trans           &trans  &kp PAGE_DOWN  &kp END   &trans      &trans  &kp LESS_THAN  &kp GREATER_THAN  &kp LEFT      &trans    &kp RIGHT
 &kp KP_NUMLOCK  &trans           &trans  &trans         &trans    &trans      &trans  &kp JP_LBRACE  &kp JP_RBRACE     &kp LS(LEFT)  &kp DOWN  &kp LS(RIGHT)
 &trans          &trans           &trans  &trans         &trans    &trans      &trans  &trans                                                   &trans
