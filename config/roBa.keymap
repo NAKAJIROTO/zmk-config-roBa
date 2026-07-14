@@ -246,8 +246,8 @@
 
         layer_6 {
             bindings = <
-&kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0 &kp JP_PLUS                             &trans  &trans  &trans  &trans  &trans  &trans
-&kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &OO             &kp KP_MINUS     &trans                 &trans  &trans  &trans  &trans  &trans  &trans
+&kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0 &kp JP_PLUS                             &trans  &trans  &trans  &trans  &trans  
+&kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &OO             &kp KP_MINUS     &trans         &trans  &trans  &trans  &trans  &trans  &trans 
 &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp JP_EQUAL    &kp JP_ASTERISK  &kp KP_SLASH   &trans  &trans  &trans  &trans  &trans  &trans
 &trans           &trans           &trans           &trans          &trans           &trans         &trans  &trans                          &trans
             >;
