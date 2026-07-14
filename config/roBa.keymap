@@ -111,6 +111,18 @@
             bindings = <&mkp RCLK>;
             key-positions = <20 21>;
         };
+
+        MO1 {
+            bindings = <&mo 1>;
+            key-positions = <5 6>;
+            layers = <0>;
+        };
+
+        MO0 {
+            bindings = <&mo 0>;
+            key-positions = <5 6>;
+            layers = <1>;
+        };
     };
 
     macros {
