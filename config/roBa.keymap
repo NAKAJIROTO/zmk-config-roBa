@@ -30,6 +30,7 @@
 #undef ZMK_POINTING_DEFAULT_SCRL_VAL
 
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 120
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 600
 
 &mt {
     flavor = "balanced";
