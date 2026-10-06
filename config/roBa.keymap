@@ -158,7 +158,7 @@
         ALTCTTAB: ALTCTTAB {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LA(LC(TAB)) &kp ENTER>;
+            bindings = <&kp LA(TAB)>;
             label = "ALTCTTAB";
         };
     };
